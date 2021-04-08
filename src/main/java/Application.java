@@ -19,17 +19,17 @@ public class Application {
 //        List<Employee> employeeList = getAll();
 //        System.out.println(employeeList);
 
-//        Pizza pizza = new Pizza(1, "Margherita", 400, 3);
-//        Pizza pizza2 = new Pizza(2, "Marinara", 325, 2);
-//        Pizza pizza3 = new Pizza(3, "Carbonara", 650, 4);
-//        Pizza pizza4 = new Pizza(4, "Crudo", 230, 2);
-//        Pizza pizza5 = new Pizza(5, "Pugliese", 198, 1);
-//
-//        create(pizza);
-//        create(pizza2);
-//        create(pizza3);
-//        create(pizza4);
-//        create(pizza5);
+        Pizza pizza = new Pizza(1, "Margherita", 400, 3);
+        Pizza pizza2 = new Pizza(2, "Marinara", 325, 2);
+        Pizza pizza3 = new Pizza(3, "Carbonara", 650, 4);
+        Pizza pizza4 = new Pizza(4, "Crudo", 230, 2);
+        Pizza pizza5 = new Pizza(5, "Pugliese", 198, 1);
+
+        create(pizza);
+        create(pizza2);
+        create(pizza3);
+        create(pizza4);
+        create(pizza5);
 
         List<Pizza> pizzaList = getAll();
         System.out.println(pizzaList);
